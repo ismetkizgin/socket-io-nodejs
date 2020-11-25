@@ -58,6 +58,7 @@ Socketio.on('connection', socket => {
         gameOver.playerID = playerID;
         gameOver.state = true;
         Socketio.sockets.emit('gameOver', gameOver);
+        gameOver.state = false;
     });
 });
 
