@@ -49,14 +49,13 @@ Socketio.on('connection', socket => {
 
         }
         Socketio.sockets.emit('ready', playersID);
-        console.log(playersID);
     });
 
     socket.emit('gameOver', gameOver);
-    socket.on('gameOver', playersID => {
+    socket.on('gameOver', playerID => {
         playersID = [];
         gameStartingSituation.state = false
-        gameOver.playerID = playersID;
+        gameOver.playerID = playerID;
         gameOver.state = true;
         Socketio.sockets.emit('gameOver', gameOver);
     });
