@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/ismetkizgin/socket-io-nodejs/compare/v1.0.0...v1.0.1) (2020-11-25)
+
+
+### Bug Fixes
+
+* editing endgame settings ([0b6e133](https://github.com/ismetkizgin/socket-io-nodejs/commit/0b6e1336d4ec8ece0143506a9f6a855f1869266f))
+* fix for end game situation ([675f2b3](https://github.com/ismetkizgin/socket-io-nodejs/commit/675f2b31a81b0c2b6bdd396398584367498bcdc6))
+
 ## 1.0.0 (2020-11-24)
 
 
