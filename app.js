@@ -60,6 +60,10 @@ Socketio.on('connection', socket => {
         Socketio.sockets.emit('gameOver', gameOver);
         gameOver.state = false;
     });
+
+    socket.on('cancel', playerID => {
+        delete playersID[playersID.indexOf(playerID)]
+    });
 });
 
 Http.listen(PORT, () => {
