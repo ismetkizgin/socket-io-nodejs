@@ -62,7 +62,18 @@ Socketio.on('connection', socket => {
     });
 
     socket.on('cancel', playerID => {
-        delete playersID[playersID.indexOf(playerID)]
+        playersID.splice(playersID.indexOf(playerID), 1)
+    });
+
+    socket.on('getOutGame', playerID => {
+        playersID.splice(playersID.indexOf(playerID), 1)
+        gameStartingSituation.state = false
+        console.log(playersID);
+        gameOver.playerID = playersID[0];
+        gameOver.state = true;
+        playersID = [];
+        Socketio.sockets.emit('gameOver', gameOver);
+        gameOver.state = false;
     });
 });
 
