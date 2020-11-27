@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/ismetkizgin/socket-io-nodejs/compare/v1.1.0...v1.2.0) (2020-11-27)
+
+
+### Features
+
+* method added to withdraw from the game ([1d98889](https://github.com/ismetkizgin/socket-io-nodejs/commit/1d98889c4de9f7a717704929167e3eff20ce53fa))
+
 ## [1.1.0](https://github.com/ismetkizgin/socket-io-nodejs/compare/v1.0.1...v1.1.0) (2020-11-27)
 
 
