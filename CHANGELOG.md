@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/ismetkizgin/socket-io-nodejs/compare/v1.0.1...v1.1.0) (2020-11-27)
+
+
+### Features
+
+* added cancel method ([5905469](https://github.com/ismetkizgin/socket-io-nodejs/commit/5905469a18a6ceb2a715e115cde1acffb3674f0e))
+
 ### [1.0.1](https://github.com/ismetkizgin/socket-io-nodejs/compare/v1.0.0...v1.0.1) (2020-11-25)
 
 
