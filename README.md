@@ -1,6 +1,6 @@
-# JSE WebSite Project
+# Socket.io Project
 
-Deploy methods of JSE WebSite project are given below.
+Deploy methods of Socket.io project are given below.
 
 ### Project Publishing Instructions
 
