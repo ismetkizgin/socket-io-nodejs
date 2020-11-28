@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/ismetkizgin/socket-io-nodejs/compare/v1.2.0...v1.2.1) (2020-11-28)
+
+
+### Bug Fixes
+
+* fix for number of stone ([f4e3edf](https://github.com/ismetkizgin/socket-io-nodejs/commit/f4e3edffac1210dd1a733d912cf454ff3325f599))
+
 ## [1.2.0](https://github.com/ismetkizgin/socket-io-nodejs/compare/v1.1.0...v1.2.0) (2020-11-27)
 
 
