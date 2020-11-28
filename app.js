@@ -42,8 +42,8 @@ Socketio.on('connection', socket => {
             playersID.push(playerID);
             if (playersID.length === 2) {
                 gameStartingSituation.state = true;
-                gameStartingSituation.wallPositions = randomLaying(8, 81);
-                gameStartingSituation.stonePositions = randomLaying(2, 81);
+                gameStartingSituation.wallPositions = randomLaying(7, 81);
+                gameStartingSituation.stonePositions = randomLaying(9, 81);
                 Socketio.sockets.emit('gameStartingSituation', gameStartingSituation);
             }
 
